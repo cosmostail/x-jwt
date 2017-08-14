@@ -1,0 +1,21 @@
+{
+  "name": "cosmostail/x-jwt",
+  "type": "library",
+  "description": "Inspired by JWT protocol, X-JWT is designed to use AWS KMS to securly encrypt and decrypt data.",
+  "homepage": "https://github.com/cosmostail/x-jwt",
+  "license": "Apache License 2.0",
+  "authors": [
+    {
+      "name": "Scott Wang",
+      "email": "scott@malloc.sh"
+    }
+  ],
+  "autoload": {
+    "psr-4" : {
+      "X-JWT\\" : "src/"
+    }
+  },
+  "require": {
+    "aws/aws-sdk-php": "^3.32"
+  }
+}
